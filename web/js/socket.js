@@ -39,7 +39,7 @@
 			alert('Socket not support in your browser');
 		}
 	}
-
+	/*
 	var wsUri = "ws://echo.websocket.org/";
 	var output;
 	function init()
@@ -89,5 +89,5 @@
 	output.appendChild(pre);
 	}
 
-	window.addEventListener("load", init, false);
+	window.addEventListener("load", init, false);*/
 })(jQuery);
