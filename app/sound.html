@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sound Recognize</title>
+	<link rel="stylesheet" type="text/css" href="../web/css/bootstrap/bootstrap.min.css">
+	<script type="text/javascript" src="../web/js/plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="../web/js/plugins/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../web/js/sound.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Captura de Voz con html5 y javaScript</h1>
+				<input type="text" class="form-control" name="voice" id="voice" placeholder="Haz click" speech="speech" onwebkitspeechchange="capture()"/>
+				<br>
+				<textarea id="vozset" class="form-control"></textarea>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
